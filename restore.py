@@ -45,12 +45,13 @@
 # tx = "This is {} in {}"
 # print(tx.format(num, n))
 
-# a = 80
-# b = 4 
-# if(a % b == 0):
-#     print(bool(1))
-# else:
-#     print(bool(0))
+a = 80
+b = 4 
+if(a % b == 0):
+    print(bool(1))
+else:
+    print(bool(0))
+
 
 array = {"app", "web"}
 array.add("wep application")
@@ -60,10 +61,14 @@ array.add("wep application")
 #     print(listResult)
 
 
-thisset = {"apple", "banana", "cherry"}
+# thisset = {"apple", "banana", "cherry"}
 
-x = thisset.pop()
+# x = thisset.pop()
 
-print(x) #removed item
+# print(x) #removed item
 
-print(thisset) #the set after removal
+# print(thisset) #the set after removal
+
+class testClass:
+    i = 5
+print(testClass)
