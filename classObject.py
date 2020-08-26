@@ -47,3 +47,12 @@ class StudentGraduat(Teacher):
 
 nameStudentGraduat = StudentGraduat("Borith", "Moek", 2020)
 nameStudentGraduat.showGraduatYear()
+
+
+x = {"apple", "banana"}
+for i in x:
+    print(i)
+
+y = "apple"
+for j in y:
+    print(j)
