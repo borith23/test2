@@ -1,3 +1,5 @@
+
+
 class Person:
   def __init__ (self, fname, lname):
     self.firstName = fname
@@ -17,4 +19,6 @@ class Student(Person):
 
 nameStudent = Student("Lunar", "MOON")
 nameStudent.printname()
+
+
 
