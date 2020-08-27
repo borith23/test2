@@ -20,7 +20,7 @@ i = ["apple", "banana", "cc"]
 #display item array i from -3 to -1 
 print(i[-3:-1])
 
-#add aa to first item of array i
+#change first item in array to aa  
 i[0] = "aa"
 print(i)
 
@@ -31,3 +31,11 @@ for k in i:
 #add bb to array i
 i.append("bb")
 print(i)
+
+#add dd to first item in array i
+i.insert(0, "dd")
+print(i)
+
+k = 5
+l = 5
+print(k is l)
