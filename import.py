@@ -39,3 +39,12 @@ print(i)
 k = 5
 l = 5
 print(k is l)
+
+
+array = ["na", "ma", "ka"]
+array.remove("ma") #remove item ma from array
+print(array)
+
+array.pop() #use pop() to remove last item from array
+print(array) 
+
