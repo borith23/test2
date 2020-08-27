@@ -49,10 +49,11 @@ nameStudentGraduat = StudentGraduat("Borith", "Moek", 2020)
 nameStudentGraduat.showGraduatYear()
 
 
-x = {"apple", "banana"}
-for i in x:
-    print(i)
 
-y = "apple"
-for j in y:
-    print(j)
+#Inheritanc from class person
+class Staff(Person):
+    # def __init__(self, fname, lname):
+    pass
+nameOfStaff = Staff("Neymar", "jR")
+nameOfStaff.showDetail()
+
