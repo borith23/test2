@@ -41,5 +41,9 @@ if 4 > 8 or 5 > 0:
 else:
     print("No!")
 
-i = 5
-print(not(i > 1 or i < 10))
+
+if not(5 > 1 or 5 < 10):
+    print("kdkdkd")
+else:
+    print("aaaaa")
+
