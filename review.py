@@ -40,3 +40,11 @@ myorder = "I want {2} pieces of item {1} for {0} dollars."
 print(myorder.format(a, b, c))
 print("I want " + format(a) + " pieces of item " + format(b) + " for " + format(c) + " dollars.")
 
+
+list = ["book", "pen", "class"]
+for show in list:
+    print(show)
+    break
+    
+
+    
