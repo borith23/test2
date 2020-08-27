@@ -1,3 +1,4 @@
+#Creat class person
 class Person():
     def __init__(self, fname, lname):
         self.firstName = fname
@@ -6,12 +7,13 @@ class Person():
         print(self.firstName, self.lastName)
 
 
-
+#Create class teacher and inheritance from super class Person
 class Teacher(Person):
     pass
 x = Teacher("Python", "Nice")
 x.displayName()
 
+#create class student and exstane from Person class and add method graduatYear
 class Student(Person):
     def __init__(self, fname, lname):
         super().__init__(fname, lname)
@@ -21,6 +23,7 @@ nameStudent = Student("Borith", "MOEK")
 print(nameStudent.graduatYear)
 
 
+#creat function and global varaible
 h = "Guy"
 def fun():
     global h
@@ -29,6 +32,7 @@ def fun():
 fun()
 print(h)
 
+#Display string with number by format method
 a = 10
 b = 100
 c = 1000
