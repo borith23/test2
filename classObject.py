@@ -50,7 +50,6 @@ nameStudentGraduat = StudentGraduat("Borith", "Moek", 2020)
 nameStudentGraduat.showGraduatYear()
 
 
-
 #Inheritanc from class person
 class Staff(Person):
     # def __init__(self, fname, lname):
