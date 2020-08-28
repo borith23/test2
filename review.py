@@ -45,6 +45,8 @@ list = ["book", "pen", "class"]
 for show in list:
     print(show)
     break
-    
 
+def k():
+    print("I'm K")
     
+k()

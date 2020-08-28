@@ -19,6 +19,3 @@ class Student(Person):
 
 nameStudent = Student("Lunar", "MOON")
 nameStudent.printname()
-
-
-
