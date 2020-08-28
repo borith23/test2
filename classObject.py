@@ -57,3 +57,10 @@ class Staff(Person):
 nameOfStaff = Staff("Neymar", "jR")
 nameOfStaff.showDetail()
 
+
+i = "apple"
+for k in i:
+    print(k)
+    break
+    
+print("hello")
