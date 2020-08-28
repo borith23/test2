@@ -17,4 +17,14 @@ myIter = iter(myClass)
 for x in myIter:
   print(x)
   
+print("==================")
 
+for i in range(1,20,2):
+    print (i)
+
+print("==================")
+
+for i in range(11):
+    for j in range(i):
+        print (i, end=' ')
+    print()
